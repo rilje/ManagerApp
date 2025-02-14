@@ -1,14 +1,21 @@
-# ManagerApp
+# Manager App
 
-This template should help get you started developing with Vue 3 in Vite.
+The application allows for a detailed view of projects, as well as the ability to add new projects. 
+It also includes a section for displaying all workers in a table with sorting and filtering options. 
+Additionally, it enables assigning workers to specific projects.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Project Management** – View detailed information about projects and add new projects.  
+- **Worker Table** – Display all workers in a table with options for sorting and filtering by various criteria.  
+- **Assign Workers to Projects** – Assign workers to specific projects, streamlining project management.  
+- **Data Storage** – Data is stored in **LocalStorage** for persistence across sessions.  
 
-## Customize configuration
+## Technologies
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue.js** – For dynamic and interactive user interface  
+- **Bootstrap 5** – For responsive and modern design  
+- **LocalStorage** – For storing project and worker data in the browser  
 
 ## Project Setup
 
